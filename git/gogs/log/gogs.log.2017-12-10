@@ -1,0 +1,422 @@
+2017/12/10 15:24:51 [TRACE] Log Mode: File (Trace)
+2017/12/10 15:24:51 [ INFO] Gogs 0.11.34.1122
+2017/12/10 15:24:51 [ INFO] Cache Service Enabled
+2017/12/10 15:24:51 [ INFO] Session Service Enabled
+2017/12/10 15:24:51 [ INFO] Git Version: 2.11.3
+2017/12/10 15:24:51 [ INFO] Git config user.name set to Gogs
+2017/12/10 15:24:51 [ INFO] Git config user.email set to gogs@fake.local
+2017/12/10 15:24:51 [TRACE] Doing: CheckRepoStats
+2017/12/10 15:24:51 [ INFO] SQLite3 Supported
+2017/12/10 15:24:51 [ INFO] Run Mode: Production
+2017/12/10 15:24:52 [TRACE] Template: install
+2017/12/10 15:25:06 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:25:06 [TRACE] CSRF Token: JtzXK6kjqeJiohH1lBxT9xZrjwM6MTUxMjkzNzQ2NTA4MTk2MzM4NQ==
+2017/12/10 15:25:06 [TRACE] Custom path: /data/gogs
+2017/12/10 15:25:06 [TRACE] Log path: /app/gogs/log
+2017/12/10 15:25:06 [TRACE] Build Time: 2017-11-22 08:19:49 UTC
+2017/12/10 15:25:06 [TRACE] Build Git Hash: 
+2017/12/10 15:25:06 [TRACE] Log Mode: File (Trace)
+2017/12/10 15:25:06 [ INFO] Gogs 0.11.34.1122
+2017/12/10 15:25:06 [ INFO] Cache Service Enabled
+2017/12/10 15:25:06 [ INFO] Session Service Enabled
+2017/12/10 15:25:06 [ INFO] Git Version: 2.11.3
+2017/12/10 15:25:06 [ INFO] SQLite3 Supported
+2017/12/10 15:25:06 [ INFO] Run Mode: Production
+2017/12/10 15:25:06 [TRACE] Doing: CheckRepoStats
+2017/12/10 15:25:06 [ INFO] First-time run install finished!
+2017/12/10 15:25:06 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:25:06 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:25:06 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:25:06 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:25:06 [TRACE] Template: user/dashboard/dashboard
+2017/12/10 15:25:13 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:25:13 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:25:13 [TRACE] Template: repo/create
+2017/12/10 15:25:27 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:25:27 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:25:27 [TRACE] Repository created [1]: netapp/website
+2017/12/10 15:25:27 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:25:27 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:25:27 [TRACE] Template: repo/bare
+2017/12/10 15:26:20 [TRACE] Session ID: f2879412635e4d4a
+2017/12/10 15:26:20 [TRACE] CSRF Token: RdTcEvN-2NrA1kZ09srTeRozZIo6MTUxMjkzNzU4MDcwODE0ODY0Nw==
+2017/12/10 15:26:20 [TRACE] Session ID: 10ce4c22d566af7f
+2017/12/10 15:26:20 [TRACE] CSRF Token: Pfr8Texl6vxMRGhL4cINURM2wX06MTUxMjkzNzU4MDc0MzI2MjA3NQ==
+2017/12/10 15:26:24 [TRACE] Session ID: 62c0a710b85e248a
+2017/12/10 15:26:24 [TRACE] CSRF Token: X9jjc6_I4gBlWaNxmZrlk_4ldzU6MTUxMjkzNzU4NDMzODk0ODc5Ng==
+2017/12/10 15:26:24 [TRACE] Session ID: 95652d3ece471ea0
+2017/12/10 15:26:24 [TRACE] CSRF Token: 8xncWpUckh6T8j-t2PrO3Ysc1Oo6MTUxMjkzNzU4NDM0NzExMDE2MQ==
+2017/12/10 15:26:24 [TRACE] HTTPGit - Authenticated user: netapp
+2017/12/10 15:26:24 [TRACE] Session ID: 43d8a770a41781ae
+2017/12/10 15:26:24 [TRACE] CSRF Token: y64bJ-_YKZSzYTZRZIyQWg8VlBY6MTUxMjkzNzU4NDgyMDQ1NjU0Mw==
+2017/12/10 15:26:24 [TRACE] TriggerTask 'website/master' by 'netapp'
+2017/12/10 15:26:24 [TRACE] DeliverHooks [repo_id: 1]
+2017/12/10 15:26:24 [TRACE] AddTestPullRequestTask [head_repo_id: 1, head_branch: master]: finding pull requests
+2017/12/10 15:26:24 [TRACE] AddTestPullRequestTask [base_repo_id: 1, base_branch: master]: finding pull requests
+2017/12/10 15:34:04 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:04 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:04 [TRACE] Template: repo/home
+2017/12/10 15:34:09 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:09 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:09 [TRACE] Template: user/settings/profile
+2017/12/10 15:34:13 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:13 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:13 [TRACE] Template: user/settings/repositories
+2017/12/10 15:34:15 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:15 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:15 [TRACE] Template: repo/home
+2017/12/10 15:34:23 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:23 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:23 [TRACE] Template: user/settings/profile
+2017/12/10 15:34:25 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:25 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:25 [TRACE] Template: user/settings/avatar
+2017/12/10 15:34:26 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:26 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:26 [TRACE] Template: user/settings/password
+2017/12/10 15:34:26 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:26 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:26 [TRACE] Template: user/settings/email
+2017/12/10 15:34:27 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:27 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:27 [TRACE] Template: user/settings/sshkeys
+2017/12/10 15:34:28 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:28 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:28 [TRACE] Template: user/settings/security
+2017/12/10 15:34:29 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:29 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:29 [TRACE] Template: user/settings/repositories
+2017/12/10 15:34:31 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:31 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:31 [TRACE] Template: user/settings/organizations
+2017/12/10 15:34:31 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:31 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:31 [TRACE] Template: user/settings/applications
+2017/12/10 15:34:33 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:33 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:33 [TRACE] Template: user/settings/delete
+2017/12/10 15:34:34 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:34 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:34 [TRACE] Template: user/settings/profile
+2017/12/10 15:34:35 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:35 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:35 [TRACE] Template: user/settings/avatar
+2017/12/10 15:34:36 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:36 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:36 [TRACE] Template: user/settings/password
+2017/12/10 15:34:37 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:37 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:37 [TRACE] Template: user/settings/email
+2017/12/10 15:34:39 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:39 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:39 [TRACE] Template: admin/dashboard
+2017/12/10 15:34:41 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:41 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:41 [TRACE] Template: admin/user/list
+2017/12/10 15:34:41 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:41 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:41 [TRACE] Template: admin/repo/list
+2017/12/10 15:34:43 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:43 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:43 [TRACE] Template: admin/auth/list
+2017/12/10 15:34:44 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:44 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:44 [TRACE] Template: admin/config
+2017/12/10 15:34:45 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:45 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:45 [TRACE] Template: admin/notice
+2017/12/10 15:34:46 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:46 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:46 [TRACE] Template: admin/monitor
+2017/12/10 15:34:48 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:48 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:48 [TRACE] Template: admin/user/list
+2017/12/10 15:34:49 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:49 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:49 [TRACE] Template: admin/dashboard
+2017/12/10 15:34:51 [TRACE] Doing: MirrorUpdate
+2017/12/10 15:34:51 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:51 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:51 [TRACE] Template: user/settings/profile
+2017/12/10 15:34:53 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:53 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:53 [TRACE] Template: user/settings/avatar
+2017/12/10 15:34:54 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:54 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:54 [TRACE] Template: user/settings/password
+2017/12/10 15:34:55 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:55 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:55 [TRACE] Template: user/settings/email
+2017/12/10 15:34:56 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:56 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:56 [TRACE] Template: user/settings/sshkeys
+2017/12/10 15:34:57 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:57 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:57 [TRACE] Template: user/settings/security
+2017/12/10 15:34:59 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:34:59 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:34:59 [TRACE] Template: user/settings/repositories
+2017/12/10 15:35:00 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:35:00 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:35:00 [TRACE] Template: user/settings/organizations
+2017/12/10 15:35:01 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:35:01 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:35:01 [TRACE] Template: user/settings/applications
+2017/12/10 15:35:02 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:35:02 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:35:02 [TRACE] Template: user/settings/delete
+2017/12/10 15:35:04 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:35:04 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:35:04 [TRACE] Template: user/settings/repositories
+2017/12/10 15:35:05 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:35:05 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:35:05 [TRACE] Template: repo/home
+2017/12/10 15:35:06 [TRACE] Doing: MirrorUpdate
+2017/12/10 15:35:08 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:35:08 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:35:08 [TRACE] Template: repo/settings/options
+2017/12/10 15:35:09 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:35:09 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:35:09 [TRACE] Template: repo/settings/webhook/base
+2017/12/10 15:35:42 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:35:42 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:35:42 [TRACE] Template: repo/settings/webhook/new
+2017/12/10 15:36:34 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:36:34 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:36:34 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:36:34 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:36:34 [TRACE] Template: repo/settings/webhook/base
+2017/12/10 15:36:41 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 15:36:41 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 15:36:41 [TRACE] Template: repo/home
+2017/12/10 15:44:51 [TRACE] Doing: MirrorUpdate
+2017/12/10 15:45:06 [TRACE] Doing: MirrorUpdate
+2017/12/10 15:54:51 [TRACE] Doing: MirrorUpdate
+2017/12/10 15:55:06 [TRACE] Doing: MirrorUpdate
+2017/12/10 15:58:50 [TRACE] Session ID: b0c95fe30fad8ec3
+2017/12/10 15:58:50 [TRACE] CSRF Token: _BBpXhWPQPP--MJwUh_Gj_Bz6SM6MTUxMjkzOTUzMDY5MDAxODMxNw==
+2017/12/10 15:58:51 [TRACE] Session ID: 557147ff29edd3af
+2017/12/10 15:58:51 [TRACE] CSRF Token: 6FI4N01wy1956BV25fhqGqLK6eg6MTUxMjkzOTUzMTM1ODI3MzE5Mg==
+2017/12/10 15:58:51 [TRACE] Session ID: 514987917b78ec54
+2017/12/10 15:58:51 [TRACE] CSRF Token: scOKf_J1TrDvTGGmKJetUoXkxGA6MTUxMjkzOTUzMTkxMTQxMzY3Mw==
+2017/12/10 15:58:51 [TRACE] Session ID: 6ade7bedc03ca30c
+2017/12/10 15:58:51 [TRACE] CSRF Token: ElcEUJna7Kc4AMj7tiEx5EIFIZA6MTUxMjkzOTUzMTk4NjYwNTAzOA==
+2017/12/10 15:58:52 [TRACE] Session ID: e4c3afea7ba35037
+2017/12/10 15:58:52 [TRACE] CSRF Token: 9iqTPJPgvoEXwfXUNONppxKsTq86MTUxMjkzOTUzMjMyNjMxNTc5Mg==
+2017/12/10 15:59:01 [TRACE] Session ID: e3ff11b24b3cde7c
+2017/12/10 15:59:01 [TRACE] CSRF Token: UjG8f2baKVmk5yZ4kT1Zq7aMia46MTUxMjkzOTU0MTUzNjA2MTU2Nw==
+2017/12/10 16:00:15 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 16:00:15 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 16:00:15 [TRACE] Template: user/settings/profile
+2017/12/10 16:00:17 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 16:00:17 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 16:00:17 [TRACE] Template: user/settings/sshkeys
+2017/12/10 16:00:22 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 16:00:22 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 16:00:22 [TRACE] ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCTfGgDN9A9NEpnN+kCVXdelunr0RpOwp2ocRXBfpDFohnyEQ3DdRpP9EGRytiY/QmikEL+NlqBxKKDJWBiOWKIiy+DjzLUWFGt5WXq33WGBP/DrIRb7LXJS8WcYU5Hh4/T2UNgeEP0U6IRzUC1rDt/r9qKAhNX8pCc/yOF9WuS5O3s+gIUg6cHPWgxs5EjNIKDAPF6s83KcxGy6rtuhCOGcYnGRin4jR5c6MkNDKpPYNDr6/mYiNoi4TjM4GAKbn0feSNRhomH5bC6XVyse2atpkXr0NBmZ7CPCMkuG31cKOWKvVKf9IxpFCLo6uCv0z0d1e9/uqUV07ONzQ7zEdsx netapp@localhost:8080
+2017/12/10 16:00:22 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 16:00:22 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 16:00:22 [TRACE] Template: user/settings/sshkeys
+2017/12/10 16:00:46 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 16:00:46 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 16:00:46 [TRACE] Template: user/settings/profile
+2017/12/10 16:00:47 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 16:00:47 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 16:00:47 [TRACE] Template: user/settings/sshkeys
+2017/12/10 16:03:02 [TRACE] Session ID: 61692b0ec1d479c4
+2017/12/10 16:03:02 [TRACE] CSRF Token: w0ioM1iN9s7Bn1E9K9BJplT91Zg6MTUxMjkzOTc4MjgyNDE0NTQxNg==
+2017/12/10 16:03:02 [TRACE] TriggerTask 'website/master' by 'netapp'
+2017/12/10 16:03:02 [TRACE] DeliverHooks [repo_id: 1]
+2017/12/10 16:03:02 [TRACE] AddTestPullRequestTask [head_repo_id: 1, head_branch: master]: finding pull requests
+2017/12/10 16:03:02 [TRACE] AddTestPullRequestTask [base_repo_id: 1, base_branch: master]: finding pull requests
+2017/12/10 16:03:02 [TRACE] Hook delivery failed: 3582c765-91a0-4aca-a5fa-515d89c25fd6
+2017/12/10 16:03:11 [TRACE] Session ID: 2bc49ed8f1c7c6bd
+2017/12/10 16:03:11 [TRACE] CSRF Token: EBZBU6K16hGfOhZfZoTcSxKBwXA6MTUxMjkzOTc5MTcyODQxMTI0Mw==
+2017/12/10 16:03:11 [TRACE] Session ID: 61a26264be3c859b
+2017/12/10 16:03:11 [TRACE] CSRF Token: GEfKFCjJEZ_msyk1p1w5KTHDQvA6MTUxMjkzOTc5MTc4MzQ1OTM1MA==
+2017/12/10 16:04:51 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:05:06 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:09:02 [TRACE] Session ID: 793d4d1abc330c95
+2017/12/10 16:09:02 [TRACE] CSRF Token: 41NTTAUwA1fFxvsMhJnY5355qWo6MTUxMjk0MDE0MjM0NDUzMzQ4Mw==
+2017/12/10 16:09:02 [TRACE] Session ID: e1d5bad005a33a52
+2017/12/10 16:09:02 [TRACE] CSRF Token: JSglx9Tmh4qbbmvKdZFoGXpAeNA6MTUxMjk0MDE0MjM5MzMwOTA4NA==
+2017/12/10 16:09:02 [TRACE] Session ID: bf714b69736170aa
+2017/12/10 16:09:02 [TRACE] CSRF Token: 71SXkhjpO_Bxw2lQudmUshj4YZE6MTUxMjk0MDE0MjQzNDA2OTIxNg==
+2017/12/10 16:09:02 [TRACE] Session ID: 079a55ab8e40b88e
+2017/12/10 16:09:02 [TRACE] CSRF Token: 8Esf31lg-tGEinA0-g1PJ-9b9xo6MTUxMjk0MDE0MjQ0MDU3ODE3NQ==
+2017/12/10 16:09:02 [TRACE] HTTPGit - Authenticated user: netapp
+2017/12/10 16:09:02 [TRACE] Session ID: b368b846c30cf9c0
+2017/12/10 16:09:02 [TRACE] CSRF Token: ZmMRdz_VIrUh1002axCTeEGBZ3o6MTUxMjk0MDE0MjkxNTY5ODgzMw==
+2017/12/10 16:09:02 [TRACE] TriggerTask 'website/master' by 'netapp'
+2017/12/10 16:09:02 [TRACE] AddTestPullRequestTask [head_repo_id: 1, head_branch: master]: finding pull requests
+2017/12/10 16:09:02 [TRACE] DeliverHooks [repo_id: 1]
+2017/12/10 16:09:02 [TRACE] AddTestPullRequestTask [base_repo_id: 1, base_branch: master]: finding pull requests
+2017/12/10 16:09:02 [TRACE] Hook delivery failed: d8eed584-df04-4fdd-bbc9-91aa0b484fbe
+2017/12/10 16:10:03 [TRACE] Session ID: a9cb3ab64717f837
+2017/12/10 16:10:03 [TRACE] CSRF Token: i5A_aK1FrzsFzxYY87hdZMy5FPQ6MTUxMjk0MDIwMzAzMDQ3MzY4NQ==
+2017/12/10 16:10:03 [TRACE] Session ID: e0fb9e151f1a683d
+2017/12/10 16:10:03 [TRACE] CSRF Token: GXQjFoJiUuibKdZ3dz116Y94A386MTUxMjk0MDIwMzA1OTc5MjE5NA==
+2017/12/10 16:10:03 [TRACE] Session ID: d016d1882470e26a
+2017/12/10 16:10:03 [TRACE] CSRF Token: CvVnctAwIMQTVALUsfnFMWB4p3Y6MTUxMjk0MDIwMzA4Mjc1MTg5Mw==
+2017/12/10 16:10:03 [TRACE] Session ID: 6c8c954b3e7c3ace
+2017/12/10 16:10:03 [TRACE] CSRF Token: EemULgVtQbUcRn0lINWDRijGEZs6MTUxMjk0MDIwMzA5MDA3MzA0Mg==
+2017/12/10 16:10:03 [TRACE] HTTPGit - Authenticated user: netapp
+2017/12/10 16:10:03 [TRACE] Session ID: e9d0806cef0b4623
+2017/12/10 16:10:03 [TRACE] CSRF Token: BcRAnYhw8_7T98QlLP6wFtpeRIw6MTUxMjk0MDIwMzU2OTgzMDczNA==
+2017/12/10 16:10:03 [TRACE] TriggerTask 'website/master' by 'netapp'
+2017/12/10 16:10:03 [TRACE] DeliverHooks [repo_id: 1]
+2017/12/10 16:10:03 [TRACE] AddTestPullRequestTask [head_repo_id: 1, head_branch: master]: finding pull requests
+2017/12/10 16:10:03 [TRACE] Hook delivery failed: 69d71d73-776e-4850-b65b-bdf3f896d9a6
+2017/12/10 16:10:03 [TRACE] AddTestPullRequestTask [base_repo_id: 1, base_branch: master]: finding pull requests
+2017/12/10 16:11:27 [TRACE] Session ID: 605238e0c07512a5
+2017/12/10 16:11:27 [TRACE] CSRF Token: esUkJb46zrYLA5YxRTd7cr-w1ik6MTUxMjk0MDI4Nzg1NzMyMzc3OA==
+2017/12/10 16:11:27 [TRACE] Session ID: 96df02bf6391b54f
+2017/12/10 16:11:27 [TRACE] CSRF Token: hnhCxcL4B1UyPfMVbIrN2hcQUyY6MTUxMjk0MDI4Nzg4OTg2Nzc2OA==
+2017/12/10 16:11:27 [TRACE] Session ID: b35763b577844ff1
+2017/12/10 16:11:27 [TRACE] CSRF Token: oOGpBv_oJNS6u_YfU3sAdsHA18M6MTUxMjk0MDI4NzkxMzAzOTIyMw==
+2017/12/10 16:11:27 [TRACE] Session ID: 43a679b5d6bb630d
+2017/12/10 16:11:27 [TRACE] CSRF Token: H-GUx2juTMJhJljjdd5IN0UMqD06MTUxMjk0MDI4NzkxODc2OTUyNg==
+2017/12/10 16:11:27 [TRACE] HTTPGit - Authenticated user: netapp
+2017/12/10 16:11:28 [TRACE] Session ID: 898697a8614ebe66
+2017/12/10 16:11:28 [TRACE] CSRF Token: NA5ZnzHkfM7l0V3Ikhsm8kLdF746MTUxMjk0MDI4ODQzNjY5MTYwNg==
+2017/12/10 16:11:28 [TRACE] TriggerTask 'website/master' by 'netapp'
+2017/12/10 16:11:28 [TRACE] DeliverHooks [repo_id: 1]
+2017/12/10 16:11:28 [TRACE] AddTestPullRequestTask [head_repo_id: 1, head_branch: master]: finding pull requests
+2017/12/10 16:11:28 [TRACE] Hook delivery failed: 76d34976-7e29-4645-b7bf-f96ac5d8c0c2
+2017/12/10 16:11:28 [TRACE] AddTestPullRequestTask [base_repo_id: 1, base_branch: master]: finding pull requests
+2017/12/10 16:14:51 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:15:06 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:17:48 [TRACE] Session ID: 428a013496a2ef05
+2017/12/10 16:17:48 [TRACE] CSRF Token: pIdLgwyeBW2d7jtIm2WK0MBSJeE6MTUxMjk0MDY2ODEyNzE1ODk5MQ==
+2017/12/10 16:17:48 [TRACE] Session ID: 47ebd0c616a864d6
+2017/12/10 16:17:48 [TRACE] CSRF Token: SyJniFfdne25YaBOkeV_0KXV0q06MTUxMjk0MDY2ODE3MTc5MzY3OA==
+2017/12/10 16:17:48 [TRACE] Session ID: ab65a250451dc612
+2017/12/10 16:17:48 [TRACE] CSRF Token: iv0cG-YcvNb7yaXxKHtZghTuljY6MTUxMjk0MDY2ODIwMzU2NjUxMQ==
+2017/12/10 16:17:48 [TRACE] Session ID: 42e51a196c217daf
+2017/12/10 16:17:48 [TRACE] CSRF Token: YbuAnsdWsomAYjjTyCxghCkpx0A6MTUxMjk0MDY2ODIwOTU5NTQ0Mg==
+2017/12/10 16:17:48 [TRACE] HTTPGit - Authenticated user: netapp
+2017/12/10 16:17:48 [TRACE] Session ID: 1b2243792da70031
+2017/12/10 16:17:48 [TRACE] CSRF Token: CYiui-AGMJ7bw6Wpr5VMPmVAoH86MTUxMjk0MDY2ODk1MTA0NjMwNg==
+2017/12/10 16:17:48 [TRACE] TriggerTask 'website/master' by 'netapp'
+2017/12/10 16:17:48 [TRACE] DeliverHooks [repo_id: 1]
+2017/12/10 16:17:48 [TRACE] AddTestPullRequestTask [head_repo_id: 1, head_branch: master]: finding pull requests
+2017/12/10 16:17:48 [TRACE] AddTestPullRequestTask [base_repo_id: 1, base_branch: master]: finding pull requests
+2017/12/10 16:17:48 [TRACE] Hook delivery failed: 9b0477f9-7ee2-402a-9c11-e12d11a5d983
+2017/12/10 16:24:51 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:25:06 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:28:46 [TRACE] Session ID: 3fa3b4af0aa4a2e1
+2017/12/10 16:28:46 [TRACE] CSRF Token: kex7zXLS9xTASH8FpU0kPq-3tuw6MTUxMjk0MTMyNjE3Njg0ODA5MA==
+2017/12/10 16:29:00 [TRACE] Session ID: 3a30ead02b93c614
+2017/12/10 16:29:00 [TRACE] CSRF Token: PMlTszNKOlycLNaFCmppzsg6Oc86MTUxMjk0MTM0MDk4NTM0MjYyMg==
+2017/12/10 16:29:01 [TRACE] Session ID: 1245a8e867674d88
+2017/12/10 16:29:01 [TRACE] CSRF Token: hy2izCBkx76O_KHEKs2NwQ4Iv_Q6MTUxMjk0MTM0MTAyNjQzNDY1Mw==
+2017/12/10 16:29:01 [TRACE] Session ID: d3b90c132b41e87e
+2017/12/10 16:29:01 [TRACE] CSRF Token: hfxY8xxsrFfH909JCjke3sYXzi46MTUxMjk0MTM0MTA2MjgzOTQ3NA==
+2017/12/10 16:29:01 [TRACE] Session ID: e6935d59ca4e3f89
+2017/12/10 16:29:01 [TRACE] CSRF Token: JF7fWiyDs33r3d7VP9leuJ7FL386MTUxMjk0MTM0MTA2OTMwNzg4NA==
+2017/12/10 16:29:01 [TRACE] HTTPGit - Authenticated user: netapp
+2017/12/10 16:29:01 [TRACE] Session ID: 5738b8658d56eb7d
+2017/12/10 16:29:01 [TRACE] CSRF Token: YKr3wQeMcLgwGY8Oxe-SDN3xyNw6MTUxMjk0MTM0MTYzODA0NTkzNw==
+2017/12/10 16:29:01 [TRACE] TriggerTask 'website/master' by 'netapp'
+2017/12/10 16:29:01 [TRACE] DeliverHooks [repo_id: 1]
+2017/12/10 16:29:01 [TRACE] AddTestPullRequestTask [head_repo_id: 1, head_branch: master]: finding pull requests
+2017/12/10 16:29:01 [TRACE] AddTestPullRequestTask [base_repo_id: 1, base_branch: master]: finding pull requests
+2017/12/10 16:29:01 [TRACE] Hook delivery failed: d0b96c16-a465-49d9-b77d-ed94da437efe
+2017/12/10 16:29:08 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 16:29:08 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 16:29:08 [TRACE] Template: user/dashboard/dashboard
+2017/12/10 16:29:10 [TRACE] Session ID: 3728c1f608666d0f
+2017/12/10 16:29:10 [TRACE] CSRF Token: o2SLHu31eit0nPuof4WNQSah1qw6MTUxMjkzNzUwNjcwNTk4NjI3MA==
+2017/12/10 16:29:10 [TRACE] Template: repo/home
+2017/12/10 16:29:53 [TRACE] Session ID: a3768a8b128d7f2d
+2017/12/10 16:29:53 [TRACE] CSRF Token: nHrVyJ_xFbzZlo-lcDmUDSh3AAI6MTUxMjk0MTM5MzY0Njc0NjAwNQ==
+2017/12/10 16:29:53 [TRACE] Session ID: cdecbfabac2cda9c
+2017/12/10 16:29:53 [TRACE] CSRF Token: glyThUGTa5i_K55gCiOEyM76tq86MTUxMjk0MTM5Mzg4NDk1ODY4Ng==
+2017/12/10 16:29:54 [TRACE] Session ID: ab68f208e69bcb44
+2017/12/10 16:29:54 [TRACE] CSRF Token: BO6DlVpasGTdtQqgE3uPfUwa-Dg6MTUxMjk0MTM5NDE4MTY2NTg5MQ==
+2017/12/10 16:29:54 [TRACE] Session ID: 7560e3020713cdf2
+2017/12/10 16:29:54 [TRACE] CSRF Token: EwV8vcoY-4wQZxhpjbHxZV5Yet46MTUxMjk0MTM5NDI0OTg1MjU2Nw==
+2017/12/10 16:29:54 [TRACE] Session ID: 648449b5c112e689
+2017/12/10 16:29:54 [TRACE] CSRF Token: yYlIIKowRsVhMc9bQTf-OJ8Oivo6MTUxMjk0MTM5NDYxNjAzMDUyOQ==
+2017/12/10 16:29:58 [TRACE] Session ID: c4dc292168c1cd7d
+2017/12/10 16:29:58 [TRACE] CSRF Token: q_e2WNfUXACf9UNCMFbNvQiKIbA6MTUxMjk0MTM5ODYzNDE5NDIzOA==
+2017/12/10 16:34:51 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:35:06 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:36:06 [TRACE] Session ID: 80d7886623fc5555
+2017/12/10 16:36:06 [TRACE] CSRF Token: Fe3xpCkcA35PqhnEspAYASROtOs6MTUxMjk0MTc2NjU4NzU5MjQ0Nw==
+2017/12/10 16:36:07 [TRACE] Session ID: fe9b5d8f66310f21
+2017/12/10 16:36:07 [TRACE] CSRF Token: ecBYKezoE3bB1RuBMJR366LUhT46MTUxMjk0MTc2NzY4Nzk3MDI3MA==
+2017/12/10 16:37:41 [TRACE] Session ID: 7bd5a3b49b089fc7
+2017/12/10 16:37:41 [TRACE] CSRF Token: QXvQGnFecy2on0VdrPkWZBuSIIE6MTUxMjk0MTg2MTA5MDEzOTk1Ng==
+2017/12/10 16:37:41 [TRACE] Session ID: 8827b4071af089f7
+2017/12/10 16:37:41 [TRACE] CSRF Token: MiWltNkbZbXoImcgYwpEDn9aD_c6MTUxMjk0MTg2MTE1ODEyNTQ1NA==
+2017/12/10 16:44:51 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:45:06 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:49:03 [TRACE] Session ID: d5dbc0654341d353
+2017/12/10 16:49:03 [TRACE] CSRF Token: 9zj7EYOQr1dS3GMAdLGCLdDusqY6MTUxMjk0MjU0Mzc5Mzc3MjA2NQ==
+2017/12/10 16:49:03 [TRACE] Session ID: fc5c53338c710efc
+2017/12/10 16:49:03 [TRACE] CSRF Token: F10qXB_BfAeB3bVVFGiQecC1eAo6MTUxMjk0MjU0Mzg0OTcxNTAxMg==
+2017/12/10 16:49:03 [TRACE] Session ID: dd8734e3c530cd30
+2017/12/10 16:49:03 [TRACE] CSRF Token: i3j7lgLYAA8KRcVxw_TYvv77SC46MTUxMjk0MjU0Mzg5MTY3OTg3NA==
+2017/12/10 16:49:03 [TRACE] Session ID: b487ab56ade6baca
+2017/12/10 16:49:03 [TRACE] CSRF Token: 0aVde6rpFQIBBYjP_dRRy27l-DY6MTUxMjk0MjU0Mzg5ODY0MDgxOQ==
+2017/12/10 16:49:03 [TRACE] HTTPGit - Authenticated user: netapp
+2017/12/10 16:49:04 [TRACE] Session ID: 21412e86c0122c5a
+2017/12/10 16:49:04 [TRACE] CSRF Token: B1hfSgZBfk5RoJ8G6B4U8olgFvQ6MTUxMjk0MjU0NDcxODQ1NDk2Ng==
+2017/12/10 16:49:04 [TRACE] TriggerTask 'website/master' by 'netapp'
+2017/12/10 16:49:04 [TRACE] DeliverHooks [repo_id: 1]
+2017/12/10 16:49:04 [TRACE] AddTestPullRequestTask [head_repo_id: 1, head_branch: master]: finding pull requests
+2017/12/10 16:49:04 [TRACE] Hook delivery failed: 053b01e4-b523-475b-8e47-a69af900004b
+2017/12/10 16:49:04 [TRACE] AddTestPullRequestTask [base_repo_id: 1, base_branch: master]: finding pull requests
+2017/12/10 16:50:06 [TRACE] Session ID: 2697ce713269aaa3
+2017/12/10 16:50:06 [TRACE] CSRF Token: hXMq860BV6OOcAZI7IAoOfQ6kj46MTUxMjk0MjYwNjQ2NTM3MjU1OQ==
+2017/12/10 16:50:07 [TRACE] Session ID: 744e60f5063c448c
+2017/12/10 16:50:07 [TRACE] CSRF Token: wZgtXiBwe_lUUN04SAEQiN29gj06MTUxMjk0MjYwNzQ1NDg3MTM0Mw==
+2017/12/10 16:50:19 [TRACE] Session ID: 434c5c72648fb79f
+2017/12/10 16:50:19 [TRACE] CSRF Token: sP-hJvp9QY4AgRKpExFbhNmssrA6MTUxMjk0MjYxOTE1NDE3MTc5Mw==
+2017/12/10 16:50:19 [TRACE] Session ID: 8dfb99e7a4154b67
+2017/12/10 16:50:19 [TRACE] CSRF Token: Ofx2JkZPgrU1t1O1yf4Eb3sWP6o6MTUxMjk0MjYxOTIyNDMwMTgzNw==
+2017/12/10 16:54:49 [TRACE] Session ID: af7d1501aa4e16af
+2017/12/10 16:54:49 [TRACE] CSRF Token: ReHXxY5ecp1TotBQ_0qW0M7DF4w6MTUxMjk0Mjg4OTAyMDkyMjA2Nw==
+2017/12/10 16:54:49 [TRACE] Session ID: 198aeadd681dfa2f
+2017/12/10 16:54:49 [TRACE] CSRF Token: FGW8BD5KgCrlNxPUxK33j6Nsm186MTUxMjk0Mjg4OTA2NTYxNTQ4NA==
+2017/12/10 16:54:49 [TRACE] Session ID: 92c0f2658edbb35c
+2017/12/10 16:54:49 [TRACE] CSRF Token: Rkdpf2cDmlLtW-aVShsOwjKOJGo6MTUxMjk0Mjg4OTA5NzQ2NTkyOA==
+2017/12/10 16:54:49 [TRACE] Session ID: 469d4c679a1cc492
+2017/12/10 16:54:49 [TRACE] CSRF Token: krOCQpJbSqg2qxkilIG0SndH1UM6MTUxMjk0Mjg4OTEwMzI5MTY3NA==
+2017/12/10 16:54:49 [TRACE] HTTPGit - Authenticated user: netapp
+2017/12/10 16:54:49 [TRACE] Session ID: b74f61f4c9b3294e
+2017/12/10 16:54:49 [TRACE] CSRF Token: NVJ7iuD5HI7ZhULZuokUREbLQQc6MTUxMjk0Mjg4OTc0NTEzODc1Mg==
+2017/12/10 16:54:49 [TRACE] TriggerTask 'website/master' by 'netapp'
+2017/12/10 16:54:49 [TRACE] DeliverHooks [repo_id: 1]
+2017/12/10 16:54:49 [TRACE] AddTestPullRequestTask [head_repo_id: 1, head_branch: master]: finding pull requests
+2017/12/10 16:54:49 [TRACE] Hook delivery failed: 78da979e-cce8-4cb7-8e40-39015f016cf4
+2017/12/10 16:54:49 [TRACE] AddTestPullRequestTask [base_repo_id: 1, base_branch: master]: finding pull requests
+2017/12/10 16:54:51 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:54:56 [TRACE] Session ID: 3c1c82334eb54308
+2017/12/10 16:54:56 [TRACE] CSRF Token: Mm8xiHGewXq-QBL_sYC_9o8-OJ06MTUxMjk0Mjg5NjQ2NzUwNDA5MA==
+2017/12/10 16:54:56 [TRACE] Session ID: 266647e330503bc5
+2017/12/10 16:54:56 [TRACE] CSRF Token: y6OXogDoTOU3oCuzX_U2xAgXC5c6MTUxMjk0Mjg5NjU0NDM2ODE4Mg==
+2017/12/10 16:55:06 [TRACE] Doing: MirrorUpdate
+2017/12/10 16:55:46 [TRACE] Session ID: bff3c76720917137
+2017/12/10 16:55:46 [TRACE] CSRF Token: fXYts0oWQNa8gOYHz1t0TGFdnHY6MTUxMjk0Mjk0NjIzOTAxMDAyMA==
+2017/12/10 16:55:53 [TRACE] Session ID: ef55bfe512ddb240
+2017/12/10 16:55:53 [TRACE] CSRF Token: D4jbJIJuJ7IKnJvpVD0ByZcww0c6MTUxMjk0Mjk1MzYyNTQ3ODE5Mg==
+2017/12/10 16:55:53 [TRACE] Session ID: 23678f3ea89ed886
+2017/12/10 16:55:53 [TRACE] CSRF Token: 1BfM0m-6FFnsG_VhqouodQPYThU6MTUxMjk0Mjk1MzY2MDI1NTQyOA==
+2017/12/10 16:55:53 [TRACE] Session ID: 094f1080d2a68894
+2017/12/10 16:55:53 [TRACE] CSRF Token: S5htjvZsnD8Jcpi6IfOrBmnHUSo6MTUxMjk0Mjk1MzY4OTczMjA5Ng==
+2017/12/10 16:55:53 [TRACE] Session ID: 77ffd83f2054d7ee
+2017/12/10 16:55:53 [TRACE] CSRF Token: Vm4il_-PrqyS2vz_RixTWHf-CDo6MTUxMjk0Mjk1MzY5NjkxMTg2OA==
+2017/12/10 16:55:53 [TRACE] HTTPGit - Authenticated user: netapp
+2017/12/10 16:55:54 [TRACE] Session ID: f726e498c99a87b3
+2017/12/10 16:55:54 [TRACE] CSRF Token: raBwMobUlBqvJokEpMxIweDOwAY6MTUxMjk0Mjk1NDE1NTA3OTYyNg==
+2017/12/10 16:55:54 [TRACE] TriggerTask 'website/master' by 'netapp'
+2017/12/10 16:55:54 [TRACE] DeliverHooks [repo_id: 1]
+2017/12/10 16:55:54 [TRACE] AddTestPullRequestTask [head_repo_id: 1, head_branch: master]: finding pull requests
+2017/12/10 16:55:54 [TRACE] Hook delivery failed: 00c82c48-2033-44f1-a9be-0155bbad2a4e
+2017/12/10 16:55:54 [TRACE] AddTestPullRequestTask [base_repo_id: 1, base_branch: master]: finding pull requests
+2017/12/10 16:58:15 [TRACE] Session ID: ca8ecc4f28d51a71
+2017/12/10 16:58:15 [TRACE] CSRF Token: brnAzg4KZ5j32Kw1amSWPCGTp-E6MTUxMjk0MzA5NTgyNDM3MTIxMA==
+2017/12/10 16:58:15 [TRACE] Session ID: bed02438b64e513e
+2017/12/10 16:58:15 [TRACE] CSRF Token: 7QyMbuP3m1b_uEQ5EMyNuEKQWmQ6MTUxMjk0MzA5NTkwNTc0MjQ1Ng==
