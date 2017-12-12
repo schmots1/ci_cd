@@ -45,7 +45,35 @@ This just started a Jenkins (www.jenkins.io) system, a Gogs git respository (www
 - Gogs:3000
 - Registry:5000
 ### 4. Configure Jenkins
+#### Basic server configuration
 - Open a browser and navigate to http://localhost:8080
 - Wait until the screen loads to the "Unlock Jenkins" screen
   - ![Image1](images/image1.png?raw=true "Image1")
 - In your command prompt run `docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword` and copy the results to that page and hit continue
+- On the next page, don't select "Install recommended plugins" or "Select which plugins to install".  Click the little 'x' in the top right corner
+- You will be told Jenkins is ready and get the warning 
+> "You've skipped creating an admin user. To log in, use the username: 'admin' and the administrator password you used to access the setup wizard."
+- Click "Start using Jenkins"
+- The first thing to do is set a password for the admin user incase you need to log back in.  From the top right select "admin" and then "Configure". Scroll to the very bottom of the page and replace the password with one of your choosing.  'netapp123' for example
+- Click "Save"
+- In the top left click on Jenkins, then select Manage Jenkins, and from the list choose Manage Plugins.  
+- Choose the 'Available' tab from the top and wait for the page to load.  
+- Once the page loads in the search box type 'docker '.  
+- Notice the space after docker, thats important, but don't type the ''.  
+- After you hit enter the list will filter.  
+- You need to select "CloudBees Docker Build and Publish plugin" and "Docker plugin".  
+- Then click at the bottom "Install without restart".  
+- This step can take a few momements based on internet speed.  
+  - If at some point you feel its hung or not progressing, from the left side menu select "Manage Plugins" and then "Update Center".  When all the items say "Success" procede.
+#### Create new job
+- Select Jenkins from the top left, then click "Create new jobs"
+- Title the job 'webpage' and select pipeline for the type, then click 'OK'
+- Under Build Triggers select Poll SCM.  Set the following schedule "M/5 \* \* \* \*".  That means check every five minutes, but not neccesary on the 5 minute mark.  
+- Switch to the Pipeline section and the Definintion should be "Pipeline script from SCM".  This looks for a Jenkinsfile in the repositry we specifiy.
+- For SCM choose Git and enter this reposity Url "http://git:3000/netapp/website.git"
+- Scroll down and click "Save"
+### 5. Run test
+- On the left hand side select "Back to dashboard" and then "Open Blue Ocean"
+- Select webpage and when prompted, click 'Run'
+  - The process takes about 40 seconds give or take how long it takes to download the base container image the first time.
+### 6. View results
