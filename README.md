@@ -47,4 +47,4 @@ This just started a Jenkins (www.jenkins.io) system, a Gogs git respository (www
 ### 4. Configure Jenkins
 - Open a browser and navigate to http://localhost:8080
 - Wait until the screen loads to the "Unlock Jenkins" screen
-  - ![Alt text](images/.jpg?raw=true "Title")
+  - ![Image1](images/image1.png?raw=true "Image1")
