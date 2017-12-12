@@ -48,3 +48,4 @@ This just started a Jenkins (www.jenkins.io) system, a Gogs git respository (www
 - Open a browser and navigate to http://localhost:8080
 - Wait until the screen loads to the "Unlock Jenkins" screen
   - ![Image1](images/image1.png?raw=true "Image1")
+- In your command prompt run `docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword` and copy the results to that page and hit continue
