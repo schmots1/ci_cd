@@ -81,6 +81,7 @@ This just started a Jenkins (www.jenkins.io) system, a Gogs git respository (www
 - Open a browser and navagate to http://localhost
 - You should see this.
 ![Image2](images/image2.png?raw=true "Image2")
+- When done checking in the command prompt run `docker stop ci_cd`
 ### 7. Make changes
 - In your browser go to the GOGS git repositroy at http://localhost:3000.
 - Log in with the username/password netapp/netapp123
@@ -89,3 +90,6 @@ This just started a Jenkins (www.jenkins.io) system, a Gogs git respository (www
 - Click the "Edit this file" button, the pencil icon.
 - Change both instances of the word "Sample" to "Edited"
 - Scroll to the bottom and click "Commit changes"
+### 8. Rerun pipeline
+- Back in the Jenkins interface select "Run" to have the pipeline rerun.
+- When the run finishes repeat step 6 to see the results.
