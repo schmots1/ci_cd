@@ -80,4 +80,12 @@ This just started a Jenkins (www.jenkins.io) system, a Gogs git respository (www
 - In your command prompt run `docker run -d --rm -it --name ci_cd -p 80:80 myweb` to start the container image we just built.
 - Open a browser and navagate to http://localhost
 - You should see this.
-- ![Image2](images/image2.png?raw=true "Image2")
+![Image2](images/image2.png?raw=true "Image2")
+### 7. Make changes
+- In your browser go to the GOGS git repositroy at http://localhost:3000.
+- Log in with the username/password netapp/netapp123
+- Select 'website' under "My Repositories"
+- Select the "html" folder and then the "index.html" file.
+- Click the "Edit this file" button, the pencil icon.
+- Change both instances of the word "Sample" to "Edited"
+- Scroll to the bottom and click "Commit changes"
