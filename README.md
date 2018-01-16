@@ -77,3 +77,7 @@ This just started a Jenkins (www.jenkins.io) system, a Gogs git respository (www
 - Select webpage and when prompted, click 'Run'
   - The process takes about 40 seconds give or take how long it takes to download the base container image the first time.
 ### 6. View results
+- In your command prompt run `docker run -d --rm -it --name ci_cd -p 80:80 myweb` to start the container image we just built.
+- Open a browser and navagate to http://localhost
+- You should see this.
+- ![Image1](images/image1.png?raw=true "Image1")
