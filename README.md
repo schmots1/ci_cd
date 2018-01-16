@@ -80,4 +80,4 @@ This just started a Jenkins (www.jenkins.io) system, a Gogs git respository (www
 - In your command prompt run `docker run -d --rm -it --name ci_cd -p 80:80 myweb` to start the container image we just built.
 - Open a browser and navagate to http://localhost
 - You should see this.
-- ![Image1](images/image1.png?raw=true "Image1")
+- ![Image2](images/image2.png?raw=true "Image2")
