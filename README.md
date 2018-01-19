@@ -91,5 +91,5 @@ This just started a Jenkins (www.jenkins.io) system, a Gogs git respository (www
 - Change both instances of the word "Sample" to "Edited"
 - Scroll to the bottom and click "Commit changes"
 ### 8. Rerun pipeline
-- Back in the Jenkins interface select "Run" to have the pipeline rerun.
+- Back in the Jenkins interface select "Run" to have the pipeline rerun. (Or wait 5 minutes for Jenkins to check for updates)
 - When the run finishes repeat step 6 to see the results.
